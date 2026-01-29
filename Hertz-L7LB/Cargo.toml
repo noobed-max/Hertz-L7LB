@@ -1,0 +1,14 @@
+[package]
+name = "Hertz-L7LB"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.49.0",  features = ["full"] }
+hyper = { version = "1.8.1", features = ["full"] }
+hyper-util = {version="0.1.19", features = ["full"] }
+bytes = "1.11.0"
+tracing = "0.1.44"
+http-body-util = "0.1.3"
+tracing-subscriber = { version ="0.3.22" , features = ["env-filter"] }
+socket2 = "0.6.2"
